@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* common */
+
+body{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  opacity: .7;
+}
+
+/* header */
+
+header{
+  background: salmon;
+  padding: 32px 0;
+}
+
+.head
+{
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* list */
+
+.top4{
+  max-width: 800px;
+  padding: 32px 16px 0;
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+/* country */
+
+.country{
+  padding: 32px 0 64px; 
+  max-width: 800px;
+  display: flex;
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+.country div{
+  flex: 1;
+  padding: 0 8px;
+}
+
+.country img{
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.c2{
+  flex-direction: row-reverse;
+}
+
+/* footer */
+
+footer{
+  padding: 48px 0;
+  background: salmon;
+}
+
+footer div{
+  text-align: center;
+}
+
+small{
+  color: #fff;
+  font-size: 14px;
+}
+
+/* home */
+
+.laos img{
+  width: 100%;
+  height: auto;
+}
